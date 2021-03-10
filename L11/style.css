@@ -1,0 +1,374 @@
+body{
+
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	
+}
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#header{
+	height: 1080px;
+	background-image: url(img/Bg.png);
+	background-repeat: no-repeat;
+
+}
+#menu ul{
+	display: flex;
+	flex-direction: row;
+	height: 29px;
+	width: 593px;
+	justify-content: space-between;
+	align-items: flex-start;
+	list-style-type: none;
+	text-align: center;
+	padding-top: 76px;
+	font-size: 18px;
+	margin-left: 664px;
+}
+#menu a{
+	color: white;
+	text-decoration: none;
+
+}
+#logo img{
+	position: absolute;
+	width: 229.33px;
+	height: 38.67px;
+	left: 220px;
+	top: 67.67px;
+	
+}
+select{
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	background: transparent;
+	border-style: none;
+	color: white;
+	font-size: 14px;
+	padding-left: 10px;
+}
+#language{
+	position: absolute;
+	width: 42.67px;
+	left: 1420px;
+	margin-top: -30px;
+	background: transparent;
+
+}
+input[type="submit"]{
+	border-radius: 10px;
+	font-size: 14px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	position: absolute;
+	font-family: Lato;
+	width: 133.33px;
+	height: 53.33px;
+	left: 1562.67px;
+	top: 61px;
+}
+#text h1{
+	position: absolute;
+	width: 770.13px;
+	height: 114.59px;
+	left: 574.27px;
+	top: 342.43px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 94px;
+	line-height: 113px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: white;
+}
+
+#text p{
+	position: absolute;
+	width: 719.5px;
+	height: 165.22px;
+	left: 599.58px;
+	top: 508.98px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+}
+input[type="submit1"]{
+	position: absolute;
+	width: 213.19px;
+	height: 66.62px;
+	left: 852.74px;
+	top: 726.16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: #ED4C5C;
+	text-align: center;
+	border-radius: 6px;
+	border-style: none;
+}
+#video{
+	background-image: url(img/VideoSection.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 666.67px;
+}
+#text1{
+	position: absolute;
+	width: 593.33px;
+	height: 333.33px;
+	left: 221px;
+	top: 1228.67px;
+	color: black;
+}
+#text1 h1{
+	position: absolute;
+	width: 593.33px;
+	height: 142.67px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 60px;
+}
+#text1 p{
+	position: absolute;
+	width: 593.33px;
+	height: 153.33px;
+	top: 200px;
+	font-family: Lato;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+}
+#text1 a{
+	position: absolute;
+	width: 94.67px;
+	height: 26.67px;
+	top: 340px;
+	font-family: Lato;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: justify;
+	color: #ED4C5C;
+
+}
+#content{
+	position: absolute;
+	width: 1920px;
+	height: 880px;
+	left: 1px;
+	top: 1708.67px;
+	background: #FAFAFA;
+}
+#content h1{
+	position: absolute;
+	width: 1480px;
+	height: 73.33px;
+	left: 221px;
+	top: 84px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	color: black;
+}
+#card1{
+	position: absolute;
+	width: 466.67px;
+	height: 473.33px;
+	left: 221px;
+	top: 241px;
+}
+#txtblock1{
+	height: 264px;
+	width: 390.67px;
+	position: absolute;
+	left: 38px;
+	top: 209px;
+	background-color: white;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+#txtblock1 h2{
+	position: absolute;
+	width: 305.33px;
+	height: 53.33px;
+	left: 42px;
+	top: 44px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+#txtblock1 p{
+	position: absolute;
+	width: 305.33px;
+	height: 76px;
+	left: 42px;
+	top: 124px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #101010;
+}
+#txtblock1 a{
+	position: absolute;
+	width: 337.33px;
+	height: 24px;
+	left: 27px;
+	top: 207px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: #ED4C5C;
+}
+
+#card2{
+	position: absolute;
+	width: 466.67px;
+	height: 473.33px;
+	left: 727.67px;
+	top: 241px;
+}
+
+#txtblock2{
+	height: 264px;
+	width: 390.67px;
+	position: absolute;
+	left: 38px;
+	top: 209px;
+	background-color: white;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+#txtblock2 h2{
+	position: absolute;
+	width: 305.33px;
+	height: 53.33px;
+	left: 42px;
+	top: 44px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+#txtblock2 p{
+	position: absolute;
+	width: 305.33px;
+	height: 76px;
+	left: 42px;
+	top: 124px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #101010;
+}
+#txtblock2 a{
+	position: absolute;
+	width: 337.33px;
+	height: 24px;
+	left: 27px;
+	top: 207px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: #ED4C5C;
+}
+#card3{
+	position: absolute;
+	width: 466.67px;
+	height: 473.33px;
+	left: 1233px;
+	top: 241px;
+}
+
+#txtblock3{
+	height: 264px;
+	width: 390.67px;
+	position: absolute;
+	left: 38px;
+	top: 209px;
+	background-color: white;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+#txtblock3 h2{
+	position: absolute;
+	width: 305.33px;
+	height: 53.33px;
+	left: 42px;
+	top: 44px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+#txtblock3 p{
+	position: absolute;
+	width: 305.33px;
+	height: 76px;
+	left: 42px;
+	top: 124px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #101010;
+}
+#txtblock3 a{
+	position: absolute;
+	width: 337.33px;
+	height: 24px;
+	left: 27px;
+	top: 207px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: #ED4C5C;
+
+}
